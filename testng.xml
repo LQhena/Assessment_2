@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:\Users\Lebohang.Qhena\IdeaProjects\Assessment_2_Test1">
+        <parameter name="ilabURL" value="https://www.ilabquality.com/"/>
+        <parameter name="Browser" value="Chrome"/>
+        <parameter name="dataStore_param" value="sql"/>
+        <classes>
+            <class name="webTests.ApplyTest">
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="C:\Users\Lebohang.Qhena\IdeaProjects\Assessment_2_Test2">
+        <parameter name="ilabURL" value="https://www.ilabquality.com/"/>
+        <parameter name="Browser" value="Firefox"/>
+        <parameter name="dataStore_param" value="sql"/>
+        <classes>
+            <class name="webTests.ApplyTest">
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="C:\Users\Lebohang.Qhena\IdeaProjects\Assessment_2_Test3">
+        <parameter name="ilabURL" value="https://www.ilabquality.com/"/>
+        <parameter name="Browser" value="IE"/>
+        <parameter name="dataStore_param" value="sql"/>
+        <classes>
+            <class name="webTests.ApplyTest">
+            </class>
+        </classes>
+    </test>
+</suite>
