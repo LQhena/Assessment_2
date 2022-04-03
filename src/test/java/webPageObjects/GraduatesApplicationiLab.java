@@ -15,7 +15,7 @@ public class GraduatesApplicationiLab {
         PageFactory.initElements(new AjaxElementLocatorFactory(this.driver, 10), this);
     }
 
-    @FindBy(xpath = "//*[@id=\"wpjb-scroll\"]/div[1]/a")
+    @FindBy(xpath = "//a[text()[contains(.,'Apply Online')]]")
     public WebElement showApplyForm;
     @FindBy(xpath = "//*[@id=\"applicant_name\"]")
     public WebElement txtName;
@@ -29,7 +29,7 @@ public class GraduatesApplicationiLab {
     public WebElement uploadResume;
     @FindBy(xpath = "//*[@id=\"wpjb_submit\"]")
     public WebElement btnSendApplication;
-    @FindBy(xpath = "//*[@id=\"wpjb-apply-form\"]/fieldset[1]/div[5]/div/ul/li")
+    @FindBy(xpath = "//li[text()[contains(.,'You need to upload')]]")
     public WebElement errMsg;
 
 

@@ -31,7 +31,7 @@ public class webUtilities {
                 driver = new FirefoxDriver();
                 break;
             case "IE":
-                WebDriverManager.chromiumdriver().setup();
+                WebDriverManager.edgedriver().setup();
                 driver = new EdgeDriver();
                 break;
         }

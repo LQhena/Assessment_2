@@ -15,6 +15,6 @@ public class careersiLab {
         PageFactory.initElements(new AjaxElementLocatorFactory(this.driver, 10), this);
     }
 
-    @FindBy(xpath = "/html/body/section/div[2]/div/div/div/div[3]/div[2]/div/div/div[3]/div[2]/div/div/div[4]/a")
+    @FindBy(xpath = "//a[text()[contains(.,'South Africa')]][1]")
     public WebElement SALinkTag;
 }

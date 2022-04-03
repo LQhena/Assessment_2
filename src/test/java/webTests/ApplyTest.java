@@ -36,7 +36,7 @@ public class ApplyTest {
 
     @Test
     public void testApplyForGraduateProgram(){
-        ExtentTest node = reports.createTest("Adactin Hotel Booking").assignAuthor("Lebohang");
+        ExtentTest node = reports.createTest("iLAB intern Application Test").assignAuthor("Lebohang");
         ExtentTest test;
 
         ResultSet internApplicationsRS = data.data.loadfromDatabase("applicationsdb","root","password");

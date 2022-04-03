@@ -15,6 +15,6 @@ public class saOpeningiLab {
         PageFactory.initElements(new AjaxElementLocatorFactory(this.driver, 10), this);
     }
 
-    @FindBy(xpath = "/html/body/section/div[2]/div/div/div/div[3]/div[2]/div/div/div/div/div/div[1]/div[1]/div[2]/div[1]/a")
+    @FindBy(xpath = "//a[text()[contains(.,'Interns - BSC Computer Science')]]")
     public WebElement internlinkTag;
 }

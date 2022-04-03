@@ -10,7 +10,6 @@
             </class>
         </classes>
     </test>
-
     <test verbose="2" preserve-order="true" name="C:\Users\Lebohang.Qhena\IdeaProjects\Assessment_2_Test2">
         <parameter name="ilabURL" value="https://www.ilabquality.com/"/>
         <parameter name="Browser" value="Firefox"/>
